@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "author": "min_liu <Min_Liu@singaporeair.com.sg>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "umi": "^4.1.9"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.77",
+    "@types/react-dom": "^18.2.25",
+    "typescript": "^5.4.5"
+  }
+}
