@@ -6,5 +6,5 @@ export default defineConfig({
     { path: "/docs", component: "docs" },
   ],
   npmClient: "pnpm",
-  publicPath: "/public/",
+  publicPath: "/",
 });

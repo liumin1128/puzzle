@@ -60,7 +60,7 @@ export default function HomePage() {
                 height: `${100 / level}%`,
                 left: `${(index % level) * (100 / level)}%`,
                 top: `${Math.floor(index / level) * (100 / level)}%`,
-                backgroundImage: "url(/public/images/1.webp)",
+                backgroundImage: "url(/images/1.webp)",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: `${level * 100}% ${level * 100}%`,
                 backgroundPosition: backgroundPosition,
@@ -71,7 +71,7 @@ export default function HomePage() {
           );
         })}
       </div>
-      <img style={{ width: 200 }} src="/public/images/1.webp" alt="" />
+      <img style={{ width: 200 }} src="/images/1.webp" alt="" />
 
       {/* {JSON.stringify(list)} */}
     </div>
