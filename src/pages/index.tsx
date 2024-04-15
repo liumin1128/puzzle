@@ -71,8 +71,8 @@ export default function HomePage() {
           );
         })}
       </div>
-      <img style={{ width: 200 }} src="/images/1.webp" alt="" />
-
+      <br />
+      <img style={{ width: 375 }} src="/images/1.webp" alt="" />
       {/* {JSON.stringify(list)} */}
     </div>
   );
